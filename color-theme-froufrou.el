@@ -38,7 +38,8 @@
 
      (magit-item-highlight            ((t (:background "gray98"))))
      (magit-diff-add                  ((t (:foreground ,green :bold t))))
-     (magit-diff-del                  ((t (:foreground ,pink :bold t))))
+     (magit-diff-del                  ((t (:foreground ,red :bold t))))
+     (magit-log-sha1                  ((t (:foreground ,pink))))
 
      (font-latex-sectioning-2-face    ((t (:foreground "black"))))
      (font-latex-bold-face            ((t (:foreground "black" :bold t))))
