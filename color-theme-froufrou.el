@@ -4,7 +4,8 @@
         (blue   "DeepSkyBlue4")
         (pink   "MediumVioletRed")
         (green  "SeaGreen")
-        (orange "DarkOrange1"))
+        (orange "DarkOrange1")
+        (red    "firebrick"))
   (color-theme-install
    `(color-theme-froufrou
       ((border-color . "#d6d1d1")
@@ -48,5 +49,7 @@
      (org-level-1 ((t (:foreground ,blue :bold t))))
      (org-level-2 ((t (:foreground ,purple :bold t))))
      (org-level-3 ((t (:foreground "#009999" :bold t))))
+     (org-todo    ((t (:foreground ,red :bold t))))
+     (org-done    ((t (:foreground ,green :bold t))))
      ))))
 (provide 'color-theme-froufrou)
